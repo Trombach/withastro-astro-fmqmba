@@ -1,0 +1,14 @@
+---
+import Card from "../components/Card.astro";
+
+const cards = ["a", "b"];
+---
+
+{cards.map(card => (<Card 				
+	href="https://docs.astro.build/"
+	title={card}
+	body={card}/>
+	<Card 				
+	href="https://docs.astro.build/"
+	title={card}
+	body={card}/>))}

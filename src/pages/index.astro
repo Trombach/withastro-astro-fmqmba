@@ -41,14 +41,14 @@ const cards = ["a", "b"]
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
 		</p>
 		<ul role="list" class="link-card-grid">
-			{cards.map(card => (<Card 				
-			  href="https://docs.astro.build/"
-				title={card}
-				body={card}/>
-				<Card 				
-			  href="https://docs.astro.build/"
-				title={card}
-				body={card}/>))}
+{cards.map(card => (<Card 				
+	href="https://docs.astro.build/"
+	title={card}
+	body={card}/>
+	<Card 				
+	href="https://docs.astro.build/"
+	title={card}
+	body={card}/>))}
 			<Card
 				href="https://docs.astro.build/"
 				title="Documentation"
